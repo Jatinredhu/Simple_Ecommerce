@@ -17,21 +17,21 @@ Simple Ecommerce is a Java-based GUI application that simulates a basic online s
 
 
 MySQL Database Setup
-This project includes a MySQL database dump file to help you set up the backend quickly.
-File Location:
-/database/shoppingcartdb_clean.sql
-Steps to Import the Database:
-->Start MySQL Server (via XAMPP, WAMP, etc.)
-->Open a terminal / command prompt
-->Run the following command:
-mysql -u root -p
-enter your mysql password when prompted.
-Create a database.
-Now,import the database by executing this command:
-->mysql -u root -p yourdatabasename < path/to/shoppingcartdb_clean.sql
-Replace path/to with the actual location of the SQL file.
-
-
+This project includes a MySQL database dump file to help you set up the backend quickly.  
+File Location:  
+/database/shoppingcartdb_clean.sql  
+Steps to Import the Database:  
+->Start MySQL Server (via XAMPP, WAMP, etc.)  
+->Open a terminal / command prompt  
+->Run the following command:  
+mysql -u root -p  
+enter your mysql password when prompted.  
+Create a database.  
+Now,import the database by executing this command:  
+->mysql -u root -p yourdatabasename < path/to/shoppingcartdb_clean.sql  
+Replace path/to with the actual location of the SQL file.  
+  
+  
 ## Dependencies
 This project requires the MySQL JDBC driver to connect Java with the MySQL database.
 The required `.jar` file is included in the `/lib` folder:
