@@ -45,6 +45,6 @@ The required `.jar` file is included in the `/lib` folder:
 You're good to go!
 
 
-For cloning the repository:
+For cloning the repository:  
 git clone https://github.com/Jatinredhu/Simple_Ecommerce.git
 
